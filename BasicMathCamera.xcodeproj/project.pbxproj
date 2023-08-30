@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B46565082A9F788400F105ED /* BasicMathCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565072A9F788400F105ED /* BasicMathCameraApp.swift */; };
-		B465650A2A9F788400F105ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565092A9F788400F105ED /* ContentView.swift */; };
+		B465650A2A9F788400F105ED /* ImageComputerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565092A9F788400F105ED /* ImageComputerView.swift */; };
 		B465650C2A9F788500F105ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B465650B2A9F788500F105ED /* Assets.xcassets */; };
 		B465650F2A9F788500F105ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B465650E2A9F788500F105ED /* Preview Assets.xcassets */; };
 		B46565192A9F788500F105ED /* BasicMathCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565182A9F788500F105ED /* BasicMathCameraTests.swift */; };
 		B46565232A9F788500F105ED /* BasicMathCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565222A9F788500F105ED /* BasicMathCameraUITests.swift */; };
 		B46565252A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565242A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift */; };
+		B46565322A9F7D4000F105ED /* CustomImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565312A9F7D4000F105ED /* CustomImagePickerView.swift */; };
+		B46565342A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */; };
+		B46565372A9F80CA00F105ED /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B46565362A9F80CA00F105ED /* ComposableArchitecture */; };
+		B46565392A9F81A600F105ED /* ImageComputerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565382A9F81A600F105ED /* ImageComputerFeature.swift */; };
+		B465653B2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		B46565042A9F788400F105ED /* BasicMathCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMathCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46565072A9F788400F105ED /* BasicMathCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraApp.swift; sourceTree = "<group>"; };
-		B46565092A9F788400F105ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B46565092A9F788400F105ED /* ImageComputerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComputerView.swift; sourceTree = "<group>"; };
 		B465650B2A9F788500F105ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B465650E2A9F788500F105ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B46565142A9F788500F105ED /* BasicMathCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMathCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,10 @@
 		B465651E2A9F788500F105ED /* BasicMathCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMathCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46565222A9F788500F105ED /* BasicMathCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraUITests.swift; sourceTree = "<group>"; };
 		B46565242A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B46565312A9F7D4000F105ED /* CustomImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePickerView.swift; sourceTree = "<group>"; };
+		B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewCoordinator.swift; sourceTree = "<group>"; };
+		B46565382A9F81A600F105ED /* ImageComputerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComputerFeature.swift; sourceTree = "<group>"; };
+		B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextBasicMathComputerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46565372A9F80CA00F105ED /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				B46565072A9F788400F105ED /* BasicMathCameraApp.swift */,
-				B46565092A9F788400F105ED /* ContentView.swift */,
+				B46565092A9F788400F105ED /* ImageComputerView.swift */,
 				B465650B2A9F788500F105ED /* Assets.xcassets */,
 				B465650D2A9F788500F105ED /* Preview Content */,
+				B46565312A9F7D4000F105ED /* CustomImagePickerView.swift */,
+				B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */,
+				B46565382A9F81A600F105ED /* ImageComputerFeature.swift */,
+				B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */,
 			);
 			path = BasicMathCamera;
 			sourceTree = "<group>";
@@ -143,6 +157,9 @@
 			dependencies = (
 			);
 			name = BasicMathCamera;
+			packageProductDependencies = (
+				B46565362A9F80CA00F105ED /* ComposableArchitecture */,
+			);
 			productName = BasicMathCamera;
 			productReference = B46565042A9F788400F105ED /* BasicMathCamera.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,9 @@
 				Base,
 			);
 			mainGroup = B46564FB2A9F788400F105ED;
+			packageReferences = (
+				B46565352A9F80C900F105ED /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = B46565052A9F788400F105ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B465650A2A9F788400F105ED /* ContentView.swift in Sources */,
+				B465653B2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift in Sources */,
+				B465650A2A9F788400F105ED /* ImageComputerView.swift in Sources */,
 				B46565082A9F788400F105ED /* BasicMathCameraApp.swift in Sources */,
+				B46565342A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift in Sources */,
+				B46565392A9F81A600F105ED /* ImageComputerFeature.swift in Sources */,
+				B46565322A9F7D4000F105ED /* CustomImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +444,13 @@
 				DEVELOPMENT_TEAM = 3795Q8DW5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to access camera to capture image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +475,13 @@
 				DEVELOPMENT_TEAM = 3795Q8DW5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to access camera to capture image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +611,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B46565352A9F80C900F105ED /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B46565362A9F80CA00F105ED /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B46565352A9F80C900F105ED /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B46564FC2A9F788400F105ED /* Project object */;
 }

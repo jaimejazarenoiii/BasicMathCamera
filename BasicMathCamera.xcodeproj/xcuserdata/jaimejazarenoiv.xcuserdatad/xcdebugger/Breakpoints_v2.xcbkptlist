@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0E53B0AF-7212-4AF3-8867-B53061F93A78"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D945B907-C01D-4C3B-BD20-3187BA145B3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BasicMathCamera/ImageTextBasicMathComputerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "translate(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D945B907-C01D-4C3B-BD20-3187BA145B3E - 40938921daf3bfd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BasicMathCamera.ImageTextBasicMathComputerService.translate(image: __C.UIImage) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "BasicMathCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaimejazarenoiv/Documents/Cj/BasicMathCamera/BasicMathCamera/ImageTextBasicMathComputerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "D945B907-C01D-4C3B-BD20-3187BA145B3E - fefcc05ee9239753"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRecognizedTextObservation) -&gt; Swift.Optional&lt;Swift.String&gt; in closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BasicMathCamera.ImageTextBasicMathComputerService.translate(image: __C.UIImage) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "BasicMathCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaimejazarenoiv/Documents/Cj/BasicMathCamera/BasicMathCamera/ImageTextBasicMathComputerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "310B0AD8-EA4C-474E-979E-B58BE4765BEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BasicMathCamera/ImageTextBasicMathComputerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "calculateFrom(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCEA8814-5A07-45B0-BEDE-0C4CA82FFB75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BasicMathCamera/ImageTextBasicMathComputerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "translate(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79FAEB6D-AB85-49BA-A6D9-FE21C64F3D01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BasicMathCamera/ImageTextBasicMathComputerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "translate(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79FAEB6D-AB85-49BA-A6D9-FE21C64F3D01 - 40938921daf3be4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BasicMathCamera.ImageTextBasicMathComputerService.translate(image: __C.UIImage) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "BasicMathCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaimejazarenoiv/Documents/Cj/BasicMathCamera/BasicMathCamera/ImageTextBasicMathComputerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "79FAEB6D-AB85-49BA-A6D9-FE21C64F3D01 - 40938921daf3be4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BasicMathCamera.ImageTextBasicMathComputerService.translate(image: __C.UIImage) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "BasicMathCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaimejazarenoiv/Documents/Cj/BasicMathCamera/BasicMathCamera/ImageTextBasicMathComputerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAF050EB-7925-45DA-B6AD-E78E6429715B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BasicMathCamera/ImageTextBasicMathComputerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "translate(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

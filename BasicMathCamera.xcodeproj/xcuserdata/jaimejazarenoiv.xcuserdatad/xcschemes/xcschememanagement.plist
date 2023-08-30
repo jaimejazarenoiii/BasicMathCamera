@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BasicMathCamera.xcscheme_^#shared#^_</key>
+		<key>BasicMathCameraGreen.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<key>BasicMathCameraRed.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BasicMathGalleryGreen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>BasicMathGalleryRed.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B46565032A9F788400F105ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B46565132A9F788500F105ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B465651D2A9F788500F105ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
