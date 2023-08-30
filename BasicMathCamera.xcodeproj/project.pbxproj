@@ -106,15 +106,12 @@
 		B46565062A9F788400F105ED /* BasicMathCamera */ = {
 			isa = PBXGroup;
 			children = (
+				B46565402A9FA28A00F105ED /* Extensions */,
+				B465653E2A9FA25D00F105ED /* Scene */,
+				B46565412A9FA29100F105ED /* Services */,
 				B46565072A9F788400F105ED /* BasicMathCameraApp.swift */,
-				B46565092A9F788400F105ED /* ImageComputerView.swift */,
 				B465650B2A9F788500F105ED /* Assets.xcassets */,
 				B465650D2A9F788500F105ED /* Preview Content */,
-				B46565312A9F7D4000F105ED /* CustomImagePickerView.swift */,
-				B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */,
-				B46565382A9F81A600F105ED /* ImageComputerFeature.swift */,
-				B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */,
-				B465653C2A9FA24200F105ED /* String+Extensions.swift */,
 			);
 			path = BasicMathCamera;
 			sourceTree = "<group>";
@@ -142,6 +139,41 @@
 				B46565242A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift */,
 			);
 			path = BasicMathCameraUITests;
+			sourceTree = "<group>";
+		};
+		B465653E2A9FA25D00F105ED /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B465653F2A9FA27100F105ED /* Custom Components */,
+				B46565092A9F788400F105ED /* ImageComputerView.swift */,
+				B46565382A9F81A600F105ED /* ImageComputerFeature.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		B465653F2A9FA27100F105ED /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				B46565312A9F7D4000F105ED /* CustomImagePickerView.swift */,
+				B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		B46565402A9FA28A00F105ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B465653C2A9FA24200F105ED /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B46565412A9FA29100F105ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
