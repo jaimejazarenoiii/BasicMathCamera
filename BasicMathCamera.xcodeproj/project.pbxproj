@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46565082A9F788400F105ED /* BasicMathCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565072A9F788400F105ED /* BasicMathCameraApp.swift */; };
+		B465650A2A9F788400F105ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565092A9F788400F105ED /* ContentView.swift */; };
+		B465650C2A9F788500F105ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B465650B2A9F788500F105ED /* Assets.xcassets */; };
+		B465650F2A9F788500F105ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B465650E2A9F788500F105ED /* Preview Assets.xcassets */; };
+		B46565192A9F788500F105ED /* BasicMathCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565182A9F788500F105ED /* BasicMathCameraTests.swift */; };
+		B46565232A9F788500F105ED /* BasicMathCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565222A9F788500F105ED /* BasicMathCameraUITests.swift */; };
+		B46565252A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565242A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46565152A9F788500F105ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46564FC2A9F788400F105ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46565032A9F788400F105ED;
+			remoteInfo = BasicMathCamera;
+		};
+		B465651F2A9F788500F105ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46564FC2A9F788400F105ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46565032A9F788400F105ED;
+			remoteInfo = BasicMathCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46565042A9F788400F105ED /* BasicMathCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMathCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46565072A9F788400F105ED /* BasicMathCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraApp.swift; sourceTree = "<group>"; };
+		B46565092A9F788400F105ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B465650B2A9F788500F105ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B465650E2A9F788500F105ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B46565142A9F788500F105ED /* BasicMathCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMathCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46565182A9F788500F105ED /* BasicMathCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraTests.swift; sourceTree = "<group>"; };
+		B465651E2A9F788500F105ED /* BasicMathCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMathCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46565222A9F788500F105ED /* BasicMathCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraUITests.swift; sourceTree = "<group>"; };
+		B46565242A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMathCameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46565012A9F788400F105ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46565112A9F788500F105ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465651B2A9F788500F105ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46564FB2A9F788400F105ED = {
+			isa = PBXGroup;
+			children = (
+				B46565062A9F788400F105ED /* BasicMathCamera */,
+				B46565172A9F788500F105ED /* BasicMathCameraTests */,
+				B46565212A9F788500F105ED /* BasicMathCameraUITests */,
+				B46565052A9F788400F105ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46565052A9F788400F105ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46565042A9F788400F105ED /* BasicMathCamera.app */,
+				B46565142A9F788500F105ED /* BasicMathCameraTests.xctest */,
+				B465651E2A9F788500F105ED /* BasicMathCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46565062A9F788400F105ED /* BasicMathCamera */ = {
+			isa = PBXGroup;
+			children = (
+				B46565072A9F788400F105ED /* BasicMathCameraApp.swift */,
+				B46565092A9F788400F105ED /* ContentView.swift */,
+				B465650B2A9F788500F105ED /* Assets.xcassets */,
+				B465650D2A9F788500F105ED /* Preview Content */,
+			);
+			path = BasicMathCamera;
+			sourceTree = "<group>";
+		};
+		B465650D2A9F788500F105ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B465650E2A9F788500F105ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B46565172A9F788500F105ED /* BasicMathCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46565182A9F788500F105ED /* BasicMathCameraTests.swift */,
+			);
+			path = BasicMathCameraTests;
+			sourceTree = "<group>";
+		};
+		B46565212A9F788500F105ED /* BasicMathCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46565222A9F788500F105ED /* BasicMathCameraUITests.swift */,
+				B46565242A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift */,
+			);
+			path = BasicMathCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46565032A9F788400F105ED /* BasicMathCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46565282A9F788500F105ED /* Build configuration list for PBXNativeTarget "BasicMathCamera" */;
+			buildPhases = (
+				B46565002A9F788400F105ED /* Sources */,
+				B46565012A9F788400F105ED /* Frameworks */,
+				B46565022A9F788400F105ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicMathCamera;
+			productName = BasicMathCamera;
+			productReference = B46565042A9F788400F105ED /* BasicMathCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46565132A9F788500F105ED /* BasicMathCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B465652B2A9F788500F105ED /* Build configuration list for PBXNativeTarget "BasicMathCameraTests" */;
+			buildPhases = (
+				B46565102A9F788500F105ED /* Sources */,
+				B46565112A9F788500F105ED /* Frameworks */,
+				B46565122A9F788500F105ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46565162A9F788500F105ED /* PBXTargetDependency */,
+			);
+			name = BasicMathCameraTests;
+			productName = BasicMathCameraTests;
+			productReference = B46565142A9F788500F105ED /* BasicMathCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B465651D2A9F788500F105ED /* BasicMathCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B465652E2A9F788500F105ED /* Build configuration list for PBXNativeTarget "BasicMathCameraUITests" */;
+			buildPhases = (
+				B465651A2A9F788500F105ED /* Sources */,
+				B465651B2A9F788500F105ED /* Frameworks */,
+				B465651C2A9F788500F105ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46565202A9F788500F105ED /* PBXTargetDependency */,
+			);
+			name = BasicMathCameraUITests;
+			productName = BasicMathCameraUITests;
+			productReference = B465651E2A9F788500F105ED /* BasicMathCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46564FC2A9F788400F105ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B46565032A9F788400F105ED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B46565132A9F788500F105ED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B46565032A9F788400F105ED;
+					};
+					B465651D2A9F788500F105ED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B46565032A9F788400F105ED;
+					};
+				};
+			};
+			buildConfigurationList = B46564FF2A9F788400F105ED /* Build configuration list for PBXProject "BasicMathCamera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46564FB2A9F788400F105ED;
+			productRefGroup = B46565052A9F788400F105ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46565032A9F788400F105ED /* BasicMathCamera */,
+				B46565132A9F788500F105ED /* BasicMathCameraTests */,
+				B465651D2A9F788500F105ED /* BasicMathCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46565022A9F788400F105ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B465650F2A9F788500F105ED /* Preview Assets.xcassets in Resources */,
+				B465650C2A9F788500F105ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46565122A9F788500F105ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465651C2A9F788500F105ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46565002A9F788400F105ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B465650A2A9F788400F105ED /* ContentView.swift in Sources */,
+				B46565082A9F788400F105ED /* BasicMathCameraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46565102A9F788500F105ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46565192A9F788500F105ED /* BasicMathCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465651A2A9F788500F105ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46565252A9F788500F105ED /* BasicMathCameraUITestsLaunchTests.swift in Sources */,
+				B46565232A9F788500F105ED /* BasicMathCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46565162A9F788500F105ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46565032A9F788400F105ED /* BasicMathCamera */;
+			targetProxy = B46565152A9F788500F105ED /* PBXContainerItemProxy */;
+		};
+		B46565202A9F788500F105ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46565032A9F788400F105ED /* BasicMathCamera */;
+			targetProxy = B465651F2A9F788500F105ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B46565262A9F788500F105ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B46565272A9F788500F105ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46565292A9F788500F105ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BasicMathCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = 3795Q8DW5P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaimejazarenoiii.BasicMathCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B465652A2A9F788500F105ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BasicMathCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = 3795Q8DW5P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaimejazarenoiii.BasicMathCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B465652C2A9F788500F105ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3795Q8DW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaimejazarenoiii.BasicMathCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicMathCamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BasicMathCamera";
+			};
+			name = Debug;
+		};
+		B465652D2A9F788500F105ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3795Q8DW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaimejazarenoiii.BasicMathCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicMathCamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BasicMathCamera";
+			};
+			name = Release;
+		};
+		B465652F2A9F788500F105ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3795Q8DW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaimejazarenoiii.BasicMathCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicMathCamera;
+			};
+			name = Debug;
+		};
+		B46565302A9F788500F105ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3795Q8DW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaimejazarenoiii.BasicMathCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicMathCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46564FF2A9F788400F105ED /* Build configuration list for PBXProject "BasicMathCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46565262A9F788500F105ED /* Debug */,
+				B46565272A9F788500F105ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46565282A9F788500F105ED /* Build configuration list for PBXNativeTarget "BasicMathCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46565292A9F788500F105ED /* Debug */,
+				B465652A2A9F788500F105ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B465652B2A9F788500F105ED /* Build configuration list for PBXNativeTarget "BasicMathCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465652C2A9F788500F105ED /* Debug */,
+				B465652D2A9F788500F105ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B465652E2A9F788500F105ED /* Build configuration list for PBXNativeTarget "BasicMathCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465652F2A9F788500F105ED /* Debug */,
+				B46565302A9F788500F105ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46564FC2A9F788400F105ED /* Project object */;
+}
