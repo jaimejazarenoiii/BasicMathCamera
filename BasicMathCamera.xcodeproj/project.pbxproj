@@ -19,6 +19,7 @@
 		B46565372A9F80CA00F105ED /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B46565362A9F80CA00F105ED /* ComposableArchitecture */; };
 		B46565392A9F81A600F105ED /* ImageComputerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46565382A9F81A600F105ED /* ImageComputerFeature.swift */; };
 		B465653B2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */; };
+		B465653D2A9FA24200F105ED /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465653C2A9FA24200F105ED /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewCoordinator.swift; sourceTree = "<group>"; };
 		B46565382A9F81A600F105ED /* ImageComputerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComputerFeature.swift; sourceTree = "<group>"; };
 		B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextBasicMathComputerService.swift; sourceTree = "<group>"; };
+		B465653C2A9FA24200F105ED /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				B46565332A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift */,
 				B46565382A9F81A600F105ED /* ImageComputerFeature.swift */,
 				B465653A2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift */,
+				B465653C2A9FA24200F105ED /* String+Extensions.swift */,
 			);
 			path = BasicMathCamera;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B465653B2A9F8F6B00F105ED /* ImageTextBasicMathComputerService.swift in Sources */,
+				B465653D2A9FA24200F105ED /* String+Extensions.swift in Sources */,
 				B465650A2A9F788400F105ED /* ImageComputerView.swift in Sources */,
 				B46565082A9F788400F105ED /* BasicMathCameraApp.swift in Sources */,
 				B46565342A9F7DDD00F105ED /* ImagePickerViewCoordinator.swift in Sources */,
